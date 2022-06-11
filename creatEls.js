@@ -69,8 +69,8 @@ const row = creatEl('tr' , null , table  )
   const btnEdit = creatEl('button' , 'edit' , tdEl)
   const btnDelet = creatEl('button' , 'delet' , tdEl)
 
-  btnEdit.setAttribute("class","btn btn-danger btn-sm");
-  btnDelet.setAttribute("class","btn btn-danger btn-sm");
+  btnEdit.setAttribute("class","btn btn-succsess m-2 btn-sm");
+  btnDelet.setAttribute("class","btn btn-danger m-2 btn-sm");
 
   btnEdit.addEventListener("click", ()=>{
       el.active = !el.active
